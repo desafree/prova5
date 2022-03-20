@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+*,*::after,*::before{padding: 0; margin:0; box-sizing: border-box; }
+
+html,body{width: 100vw; height: 100vh; background-color: aliceblue; position: relative;}
+
+*{font-family: 'Montserrat', sans-serif; font-weight: 700; color: orange;}
+
+.index-container{height: 100vh; background-color: black; display: flex; justify-content: space-evenly; align-items: center; }
+
+.numbers{position: relative; z-index: 4; display: flex; width: 500px; justify-content: space-between;}
+
+svg{position: absolute; left: -52px; top: -35px; z-index: 0;}
+
+.numbers div{position: relative; z-index: 4; font-size: 40px;}

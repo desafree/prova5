@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/TextPlugin.min.js"></script>
+    <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script> -->
+    
+    
+  </head>
+  <body>
+    <div class="index-container">
+
+
+
+
+      <div class="numbers">
+        <svg width="600" height="120"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+          <filter id="blurMe">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+          </filter>
+  
+          <circle class='first' cx="60"  cy="60" r="50" fill="white" />
+  
+          <circle class='second' cx="60" cy="60" r="50" fill="white"
+                  filter="url(#blurMe)" />
+        </svg>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+    </div>
+  </body>
+</html>
